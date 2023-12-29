@@ -2,6 +2,8 @@
 
 namespace LibertyTechnologies\Components;
 
+use Illuminate\Support\Facades\Blade;
+use LibertyTechnologies\Components\Http\Components\CardComponent;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -16,7 +18,8 @@ class ComponentsServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('components')
-            ->hasViews()
-            ->hasViewComponents('shared');
+            ->hasViews();
+
+        Blade::component(CardComponent::class, 'card');
     }
 }

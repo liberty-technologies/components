@@ -2,7 +2,6 @@
 
 namespace LibertyTechnologies\Components;
 
-use LibertyTechnologies\Components\Commands\ComponentsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

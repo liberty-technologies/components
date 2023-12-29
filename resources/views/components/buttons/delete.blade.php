@@ -2,12 +2,12 @@
 
 @can('delete', $object)
     <div class="flex w-full items-center sm:w-auto" x-data="{ initial: true, deleting: false }">
-        <x-button-base {{ $attributes }}
+        <x-lt-components::buttons.base {{ $attributes }}
                        class="w-full bg-danger-800 text-white hover:bg-danger-700 focus:bg-danger-700 focus:ring-danger-500 active:bg-danger-900 dark:bg-danger-200 dark:text-gray-800 dark:hover:bg-white dark:focus:bg-white dark:focus:ring-offset-danger-800 dark:active:bg-danger-300"
                        x-on:click.prevent="deleting = true; initial = false" x-show="initial"
                        x-on:deleting.window="$el.disabled = true">
             {{ empty(trim($slot)) ? 'Eliminar' : $slot }}
-        </x-button-base>
+        </x-lt-components::buttons.base>
 
         <div
             class="flex w-full items-center justify-center rounded-md border border-transparent bg-danger-800 px-2 py-1 dark:bg-danger-200"

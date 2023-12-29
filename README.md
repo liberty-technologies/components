@@ -7,6 +7,10 @@
 
 Shared Laravel View Components for Liberty Technologies
 
+## Requirements
+
+You must have installed Tailwind 3.0
+
 ## Installation
 
 You can install the package via composer:

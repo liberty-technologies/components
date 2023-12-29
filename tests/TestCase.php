@@ -3,8 +3,8 @@
 namespace LibertyTechnologies\Components\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use LibertyTechnologies\Components\ComponentsServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

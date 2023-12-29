@@ -1,12 +1,12 @@
 {
-    "name": "nessimabadi/components",
+    "name": "liberty-technogologies/components",
     "description": "Shared components",
     "keywords": [
         "libertytechnologies",
         "laravel",
         "components"
     ],
-    "homepage": "https://github.com/nessimabadi/components",
+    "homepage": "https://github.com/liberty-technogologies/components",
     "license": "MIT",
     "authors": [
         {

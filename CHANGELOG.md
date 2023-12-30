@@ -2,6 +2,10 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.1.1 - 2023-12-29
+
+Use anonymous components
+
 ## 1.1 - 2023-12-29
 
 All Buttons

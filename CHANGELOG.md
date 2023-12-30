@@ -2,6 +2,12 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.3.0 - 2023-12-30
+
+Add components
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.2.0...1.3.0
+
 ## 1.2.0 - 2023-12-30
 
 Components for

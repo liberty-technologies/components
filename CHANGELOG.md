@@ -2,6 +2,12 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.4.1 - 2024-01-02
+
+Fix header component
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.4.0...1.4.1
+
 ## 1.4.0 - 2024-01-02
 
 Add app name to header

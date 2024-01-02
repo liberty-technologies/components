@@ -2,6 +2,16 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.5.0 - 2024-01-02
+
+Setup prettier
+Fix versions for automated actions
+Add error component
+Fix sidebar height
+Fix footer content alignment
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.4.1...1.5.0
+
 ## 1.4.1 - 2024-01-02
 
 Fix header component

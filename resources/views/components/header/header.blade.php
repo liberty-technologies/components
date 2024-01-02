@@ -1,4 +1,4 @@
-@props(['logo'])
+@props(['logo', 'route'])
 
 <nav
     class="fixed z-30 h-16 w-full border-b-2 border-primary-300 bg-primary-200 print:hidden dark:border-primary-600 dark:bg-primary-700">

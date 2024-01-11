@@ -18,6 +18,10 @@ You can install the package via composer:
 ```bash
 composer require liberty-technogologies/components
 ```
+Then, publish the configuration for Blade Icons, uncomment the **default** icon set, and create the `resources/svg` directory 
+```bash
+php artisan vendor:publish --tag=blade-icons
+```
 
 Optionally, you can publish the views using
 

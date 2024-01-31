@@ -31,9 +31,22 @@ php artisan vendor:publish --tag="components-views"
 
 ## Usage
 
+### Buttons
+
+#### Delete
+
+Displays a delete button and asks for confirmation when clicked
+
+![Alt text](/resources/images/buttons/delete.png?raw=true "Delete Button")
+![Alt text](/resources/images/buttons/delete-confirm.png?raw=true "Delete Button Confirmation")
+
+**Variables**
+- `object` for it will check the `delete` policy.
+- `route` the given route to redirect after confirmation
+
+
 ```php
-$components = new LibertyTechnologies\Components();
-echo $components->echoPhrase('Hello, Liberty Technologies!');
+<x-lt-components::buttons.delete :object="$splitter" :route="route('splitters.destroy', $splitter)" />
 ```
 
 ## Testing
@@ -62,3 +75,57 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## TODO
+
+Add to Readme
+
+### Buttons
+
+- [X] Delete
+- [ ] Collapse
+- [ ] Primary
+- [ ] Submit
+
+### Card
+- [ ] Card
+
+### Description List
+- [ ] List
+- [ ] Item
+
+### Header
+- [ ] Header
+- [ ] Dropdown
+- [ ] Dropdown Item
+
+### Inputs
+- [ ] Text
+- [ ] Label
+- [ ] Error
+
+### Links
+- [ ] Create
+- [ ] Edit
+- [ ] Info
+- [ ] Internal
+- [ ] External
+- [ ] Text
+- [ ] View
+
+### Sidebar
+- [ ] Sidebar
+- [ ] Title
+- [ ] Item
+
+### Table
+- [ ] Table
+- [ ] Table Row
+- [ ] Table Cell Header
+- [ ] Table Cell
+
+### Misc
+- [ ] Errors
+- [ ] Footer
+- [ ] Spinner
+- [ ] Widget

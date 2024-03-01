@@ -25,6 +25,7 @@ jobs:
       - name: Prettier Action
         uses: creyD/prettier_action@v4.3
         with:
+          prettier_plugins: "@shufo/prettier-plugin-blade prettier-plugin-tailwindcss"
           prettier_options: --write **/*.{js,md}
 
       - name: Commit changes

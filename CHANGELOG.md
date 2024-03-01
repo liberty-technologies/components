@@ -2,6 +2,12 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.6.0 - 2024-03-01
+
+Adds relative class to submit button
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.5.0...1.6.0
+
 ## 1.5.0 - 2024-01-02
 
 Setup prettier

@@ -2,6 +2,12 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.7.0 - 2024-03-13
+
+Laravel 11 Compatibility
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.6.0...1.7.0
+
 ## 1.6.0 - 2024-03-01
 
 Adds relative class to submit button

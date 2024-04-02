@@ -21,6 +21,10 @@ Then, publish the configuration for Blade Icons, uncomment the **default** icon 
 php artisan vendor:publish --tag=blade-icons
 ```
 
+Add the components directory to tailwind.config.js content array
+
+` "./vendor/liberty-technologies/components/resources/views/**/*.blade.php",`
+
 Optionally, you can publish the views using
 
 ```bash

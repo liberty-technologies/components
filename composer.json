@@ -1,12 +1,12 @@
 {
-    "name": "liberty-technogologies/components",
+    "name": "liberty-technologies/components",
     "description": "Shared components",
     "keywords": [
         "libertytechnologies",
         "laravel",
         "components"
     ],
-    "homepage": "https://github.com/liberty-technogologies/components",
+    "homepage": "https://github.com/liberty-technologies/components",
     "license": "MIT",
     "authors": [
         {

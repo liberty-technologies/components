@@ -1,7 +1,7 @@
 # Shared components
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/liberty-technogologies/components.svg?style=flat-square)](https://packagist.org/packages/liberty-technogologies/components)
-[![Total Downloads](https://img.shields.io/packagist/dt/liberty-technogologies/components.svg?style=flat-square)](https://packagist.org/packages/liberty-technogologies/components)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/liberty-technologies/components.svg?style=flat-square)](https://packagist.org/packages/liberty-technologies/components)
+[![Total Downloads](https://img.shields.io/packagist/dt/liberty-technologies/components.svg?style=flat-square)](https://packagist.org/packages/liberty-technologies/components)
 
 Shared Laravel View Components for Liberty Technologies
 
@@ -14,7 +14,7 @@ You must have installed Tailwind 3.0
 You can install the package via composer:
 
 ```bash
-composer require liberty-technogologies/components
+composer require liberty-technologies/components
 ```
 Then, publish the configuration for Blade Icons, uncomment the **default** icon set, and create the `resources/svg` directory 
 ```bash

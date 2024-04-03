@@ -2,6 +2,11 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.7.1 - 2024-04-03
+
+Fix typo in library name
+Add reamde info for tailwind setup
+
 ## 1.7.0 - 2024-03-13
 
 Laravel 11 Compatibility

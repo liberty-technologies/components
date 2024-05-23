@@ -2,6 +2,16 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.8.0 - 2024-05-23
+
+New footer styling
+
+### What's Changed
+
+* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/liberty-technologies/components/pull/4
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.7.1...1.8.0New Footer styling
+
 ## 1.7.1 - 2024-04-03
 
 Fix typo in library name

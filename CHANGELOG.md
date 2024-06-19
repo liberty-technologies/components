@@ -2,6 +2,12 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.9.0 - 2024-06-19
+
+Change color of header when debug mode is on, or app is in local enviroment
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.8.0...1.9.0
+
 ## 1.8.0 - 2024-05-23
 
 New footer styling

@@ -2,6 +2,18 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.10.0 - 2024-12-03
+
+### What's Changed
+
+* Fix sidebar flashing when loading https://github.com/liberty-technologies/components/commit/7836f35e6ba5e694e75730a36eabaa0b61133030
+* Update packages dependencies and skeleton in https://github.com/liberty-technologies/components/commit/8b275f276487f9d5066a512c5ae3dc60aee8dc3b
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.1.0 by @dependabot in https://github.com/liberty-technologies/components/pull/5
+* Bump ramsey/composer-install from 2 to 3 by @dependabot in https://github.com/liberty-technologies/components/pull/2
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/liberty-technologies/components/pull/6
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.9.0...1.10.0
+
 ## 1.9.0 - 2024-06-19
 
 Change color of header when debug mode is on, or app is in local enviroment

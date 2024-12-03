@@ -2,6 +2,4 @@
 
 namespace LibertyTechnologies\Components;
 
-class Components
-{
-}
+class Components {}

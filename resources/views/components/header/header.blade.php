@@ -1,9 +1,9 @@
 @props(['logo', 'route'])
 
-<nav
-    @class([
+<nav @class([
     'border-primary-300 bg-primary-200 dark:border-primary-600 dark:bg-primary-700 fixed z-30 h-16 w-full border-b-2 print:hidden',
-    'bg-red-300 dark:bg-red-800' => app()->isLocal() || app()->hasDebugModeEnabled()
+    'bg-red-300 dark:bg-red-800' =>
+        app()->isLocal() || app()->hasDebugModeEnabled(),
 ])>
     <!-- Primary Navigation Menu -->
     <div class="px-4 sm:px-6 lg:px-8">

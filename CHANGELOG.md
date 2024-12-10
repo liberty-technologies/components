@@ -2,6 +2,12 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.11.0 - 2024-12-10
+
+Add attributes to external link
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.10.0...1.11.0
+
 ## 1.10.0 - 2024-12-03
 
 ### What's Changed

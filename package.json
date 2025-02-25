@@ -1,7 +1,7 @@
 {
     "type": "module",
     "scripts": {
-        "prettier": "npx prettier --write resources/**/*.blade.php"
+        "prettier": "npx prettier --cache --write resources/**/*.blade.php"
     },
     "devDependencies": {
         "@shufo/prettier-plugin-blade": "^1.13.4",

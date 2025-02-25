@@ -2,6 +2,17 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.12.0 - 2025-02-25
+
+### What's Changed
+
+* Laravel 12 compatibility
+* Remove Laravel 10
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/liberty-technologies/components/pull/7
+* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/liberty-technologies/components/pull/8
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.11.0...1.12.0
+
 ## 1.11.0 - 2024-12-10
 
 Add attributes to external link

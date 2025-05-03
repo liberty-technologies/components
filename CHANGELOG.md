@@ -2,6 +2,13 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.13.0 - 2025-05-03
+
+Agregar Favicons component
+Agregar border-bottom color para el component TR (prepara migración hacia Tailwind 4)
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.12.0...1.13.0
+
 ## 1.12.0 - 2025-02-25
 
 ### What's Changed

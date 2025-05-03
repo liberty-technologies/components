@@ -16,6 +16,7 @@ class ComponentsServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('lt-components')
-            ->hasViews();
+            ->hasViews()
+            ->hasAssets();
     }
 }

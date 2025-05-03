@@ -25,10 +25,17 @@ Add the components directory to tailwind.config.js content array
 
 ` "./vendor/liberty-technologies/components/resources/views/**/*.blade.php",`
 
+To use the favicon component, you must publish the assets
+
+```bash
+php artisan vendor:publish --tag=lt-components-assets
+```
+We recommend adding this command to your update script to keep the favicons up to date.
+
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="components-views"
+php artisan vendor:publish --tag=lt-components-views
 ```
 
 ## Usage
@@ -131,3 +138,4 @@ Add to Readme
 - [ ] Footer
 - [ ] Spinner
 - [ ] Widget
+- [ ] Favicons

@@ -23,7 +23,7 @@ jobs:
         uses: aglipanci/laravel-pint-action@2.5
 
       - name: Prettier Action
-        uses: creyD/prettier_action@v4.3
+        uses: creyD/prettier_action@v4.6
         with:
           prettier_plugins: "@shufo/prettier-plugin-blade prettier-plugin-tailwindcss"
           prettier_options: --write **/*.{js,md}

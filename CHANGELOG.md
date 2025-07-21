@@ -2,6 +2,16 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 1.14.0 - 2025-07-21
+
+### What's Changed
+
+* Agregar @props en base.link para prevenir el overflow de variables al component https://github.com/liberty-technologies/components/commit/d1f83caa11fd376eef2a3d0ab2c6a2ee48dc2e08
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/liberty-technologies/components/pull/9
+* Bump creyD/prettier_action from 4.3 to 4.6 by @dependabot[bot] in https://github.com/liberty-technologies/components/pull/11
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.13.0...1.14.0
+
 ## 1.13.0 - 2025-05-03
 
 Agregar Favicons component

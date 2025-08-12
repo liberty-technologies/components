@@ -1,6 +1,6 @@
 // prettier.config.js
 module.exports = {
-    "tailwindConfig": "tailwind.config.js",
+    "tailwindStylesheet": "./resources/css/app.css",
     "sortHtmlAttributes": "code-guide",
     "sortTailwindcssClasses": true,
     "plugins": [

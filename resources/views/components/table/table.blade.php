@@ -7,5 +7,10 @@
         <tbody>
             {{ $body }}
         </tbody>
-    </table>
-</div>
+        @isset($foot)
+            <tfoot class="rounded-b-xl bg-gray-100 text-sm font-semibold text-gray-950 dark:bg-gray-600/50 dark:text-white">
+                {{ $foot }}
+            </tfoot>
+            @endif
+        </table>
+    </div>

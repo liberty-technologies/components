@@ -2,6 +2,19 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 2.0.0 - 2025-11-27
+
+### What's Changed
+
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/liberty-technologies/components/pull/13
+* Update to Tailwind 4 and enhance table component features by @nessimabadi in https://github.com/liberty-technologies/components/pull/17
+
+### New Contributors
+
+* @nessimabadi made their first contribution in https://github.com/liberty-technologies/components/pull/17
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/1.14.0...2.0.0
+
 ## 1.14.0 - 2025-07-21
 
 ### What's Changed

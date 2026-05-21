@@ -2,6 +2,14 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 2.1.0 - 2026-05-21
+
+### What's Changed
+
+* Compatibility with Laravel 13
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/2.0.0...2.1.0
+
 ## 2.0.0 - 2025-11-27
 
 ### What's Changed

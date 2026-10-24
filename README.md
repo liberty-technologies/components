@@ -7,7 +7,9 @@ Shared Laravel View Components for Liberty Technologies
 
 ## Requirements
 
-You must have installed Tailwind 3.0
+- Laravel 12 or 13
+- Tailwind CSS 4
+- Alpine.js, for the interactive components (delete button, collapse button, header, sidebar)
 
 ## Installation
 
@@ -16,20 +18,36 @@ You can install the package via composer:
 ```bash
 composer require liberty-technologies/components
 ```
-Then, publish the configuration for Blade Icons, uncomment the **default** icon set, and create the `resources/svg` directory 
+
+[Heroicons](https://heroicons.com) are installed with the package, so the built-in icons work out of the box.
+
+Add the components directory as a source in your `resources/css/app.css`, and define the `primary`, `info`, `success` and `danger` color scales (50 to 950) the components use:
+
+```css
+@import "tailwindcss";
+
+@source "../../vendor/liberty-technologies/components/resources/views/**/*.blade.php";
+
+@theme {
+    --color-primary-50: oklch(0.967 0.016 12.89);
+    /* ... through --color-primary-950, and the same for info, success and danger */
+}
+```
+
+To use your own SVG icons in the sidebar items, publish the configuration for Blade Icons, uncomment the **default** icon set, and create the `resources/svg` directory
+
 ```bash
 php artisan vendor:publish --tag=blade-icons
 ```
 
-Add the components directory to tailwind.config.js content array
-
-` "./vendor/liberty-technologies/components/resources/views/**/*.blade.php",`
+The footer displays `config('app.owner')`, so add an `owner` key to your `config/app.php`.
 
 To use the favicon component, you must publish the assets
 
 ```bash
 php artisan vendor:publish --tag=lt-components-assets
 ```
+
 We recommend adding this command to your update script to keep the favicons up to date.
 
 Optionally, you can publish the views using
@@ -50,9 +68,9 @@ Displays a delete button and asks for confirmation when clicked
 ![Alt text](/resources/images/buttons/delete-confirm.png?raw=true "Delete Button Confirmation")
 
 **Variables**
+
 - `object` for it will check the `delete` policy.
 - `route` the given route to redirect after confirmation
-
 
 ```php
 <x-lt-components::buttons.delete :object="$splitter" :route="route('splitters.destroy', $splitter)" />
@@ -91,29 +109,34 @@ Add to Readme
 
 ### Buttons
 
-- [X] Delete
+- [x] Delete
 - [ ] Collapse
 - [ ] Primary
 - [ ] Submit
 
 ### Card
+
 - [ ] Card
 
 ### Description List
+
 - [ ] List
 - [ ] Item
 
 ### Header
+
 - [ ] Header
 - [ ] Dropdown
 - [ ] Dropdown Item
 
 ### Inputs
+
 - [ ] Text
 - [ ] Label
 - [ ] Error
 
 ### Links
+
 - [ ] Create
 - [ ] Edit
 - [ ] Info
@@ -123,17 +146,20 @@ Add to Readme
 - [ ] View
 
 ### Sidebar
+
 - [ ] Sidebar
 - [ ] Title
 - [ ] Item
 
 ### Table
+
 - [ ] Table
 - [ ] Table Row
 - [ ] Table Cell Header
 - [ ] Table Cell
 
 ### Misc
+
 - [ ] Errors
 - [ ] Footer
 - [ ] Spinner

@@ -19,7 +19,7 @@
 
                 <button
                     class="bg-danger-200 focus:ring-danger-800 dark:bg-danger-700 dark:hover:bg-danger-800 dark:focus:ring-danger-300 rounded-lg px-2 py-1 text-center text-xs font-medium text-gray-800 hover:bg-white focus:outline-none focus:ring-4 dark:text-white"
-                    type="submit" x-on:click="$el.form.submit()" x-on:deleting.window="$el.disabled = true">
+                    type="submit" x-on:deleting.window="$el.disabled = true">
                     Si
                 </button>
 

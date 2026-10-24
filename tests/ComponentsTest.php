@@ -52,8 +52,8 @@ it('still renders the values passed as props', function () {
 });
 
 it('keeps title slots working on the card', function () {
-    $this->blade('<x-lt-components::card.card><x-slot:title>Clientes</x-slot:title><x-slot:actions>Crear</x-slot:actions>Body</x-lt-components::card.card>')
-        ->assertSeeInOrder(['<h1', 'Clientes', 'Crear', 'Body'], false);
+    $this->blade('<x-lt-components::card.card><x-slot:title>Clientes</x-slot:title><x-slot:actions>Crear</x-slot:actions></x-lt-components::card.card>')
+        ->assertSeeInOrder(['<h1', 'Clientes', '</h1>', 'Crear'], false);
 });
 
 it('renders the table footer only when given', function () {

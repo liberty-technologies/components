@@ -1,3 +1,5 @@
+@props(['route', 'icon', 'active' => false])
+
 <li>
     <a href="{{ $route }}" @class([
         'group flex items-center rounded-lg p-2 transition duration-75 hover:bg-primary-300 hover:text-primary-900 hover:shadow-sm hover:fill-primary-900 text-xs sm:text-base',

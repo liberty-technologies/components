@@ -1,3 +1,5 @@
+@props(['route'])
+
 <a class="hover:text-info-700 hover:decoration-info-600 dark:hover:text-info-200 dark:hover:decoration-info-400 flex items-center space-x-1 hover:underline hover:decoration-2 hover:underline-offset-1"
     href="{{ $route }}" {{ $attributes }}>
     <p>{{ $slot }}</p>

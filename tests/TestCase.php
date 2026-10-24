@@ -7,6 +7,7 @@ use BladeUI\Icons\BladeIconsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use LibertyTechnologies\Components\ComponentsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use TailwindMerge\Laravel\TailwindMergeServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -24,6 +25,7 @@ class TestCase extends Orchestra
         return [
             BladeIconsServiceProvider::class,
             BladeHeroiconsServiceProvider::class,
+            TailwindMergeServiceProvider::class,
             ComponentsServiceProvider::class,
         ];
     }

@@ -2,6 +2,8 @@
 
 namespace LibertyTechnologies\Components\Tests;
 
+use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
+use BladeUI\Icons\BladeIconsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use LibertyTechnologies\Components\ComponentsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
@@ -20,6 +22,8 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
+            BladeIconsServiceProvider::class,
+            BladeHeroiconsServiceProvider::class,
             ComponentsServiceProvider::class,
         ];
     }

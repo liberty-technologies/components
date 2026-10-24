@@ -2,6 +2,21 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 2.2.0 - 2026-10-24
+
+### What's Changed
+
+* Stop rendering component props as HTML attributes by @nessimabadi in https://github.com/liberty-technologies/components/pull/24
+  * `card.card`, `widget`, `descriptionList.item`, `links.external`, `links.internal` and `sidebar.item` now declare their props, so values like `title`, `route`, `icon` and `active` are no longer output as HTML attributes (a card `title` passed as an attribute used to show up as a hover tooltip)
+  * Remove the redundant `form.submit()` from the delete confirmation button
+  * Close the table footer with `@endisset`
+  * Add render tests for the components
+  
+* Update the README for Tailwind 4, the bundled Heroicons, the required `primary`, `info`, `success` and `danger` color scales, and the `app.owner` config used by the footer
+* CI: run every test job to completion, fix the Windows PHP 8.5 job and the Prettier step
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/2.1.1...2.2.0
+
 ## 2.1.1 - 2026-10-24
 
 ### What's Changed

@@ -2,6 +2,16 @@
 
 All notable changes to `components` will be documented in this file.
 
+## 2.1.1 - 2026-10-24
+
+### What's Changed
+
+* Require `blade-ui-kit/blade-heroicons` for the icons used in component views. Apps without it failed `php artisan view:cache` / `optimize` with `Unable to locate a class or view for component [heroicon-m-chevron-down]` by @nessimabadi in https://github.com/liberty-technologies/components/pull/23
+* Add a test that compiles every package view
+* Fix CI dependency install on Windows runners and the Prettier plugin install
+
+**Full Changelog**: https://github.com/liberty-technologies/components/compare/2.1.0...2.1.1
+
 ## 2.1.0 - 2026-05-21
 
 ### What's Changed
